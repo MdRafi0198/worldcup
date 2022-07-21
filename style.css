@@ -55,6 +55,8 @@ body {
     font-weight: bold;
 }
 
+
+
 .fa-angle-right {
     margin-left: 10px;
 }
@@ -68,6 +70,14 @@ body {
 }
 
 .blog-botton {
+    /* display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 10px;
+    flex: 30%;
+    align-self: flex-start;
+    background-color: black;
+    text-align: center; */
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -76,10 +86,21 @@ body {
     align-self: flex-start;
     background-color: black;
     text-align: center;
+    padding: 10px;
 }
 
 .button {
     width: 80%;
+    align-items: center;
+    margin: 5px auto;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    transition: .3s;
+    border: none;
+    outline: none;
+    /* width: 80%;
     align-items: center;
     margin: 5px auto;
     background-color: rgb(207, 207, 207);
@@ -90,20 +111,30 @@ body {
     font-size: 20px;
     transition: .3s;
     border: none;
-    outline: none;
+    outline: none; */
 
 }
 
+/* 
 .button:active {
     background-color: red;
     color: white;
-}
+} */
 
 button:hover {
-    background-color: lightslategrey;
+    background-color: #2bcbba;
 }
 
-button.active {
+/* button.active {
+    background-color: red;
+    color: white;
+} */
+.bg-white {
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+.bg-red {
     background-color: red;
     color: white;
 }
